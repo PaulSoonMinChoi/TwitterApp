@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tumblr</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <label for="search-bar"><img class="tumblr-icon" src="https://cdn.icon-icons.com/icons2/693/PNG/512/Tumblr_Rounded_Solid_icon-icons.com_61554.png" alt=""></label>
+            <input type="text" class="search-bar" placeholder="Search Tumblr">
+        </div>
+    </header>
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <ul class="links">
+                <li>
+                    <a href="https://twitter.com/home"><img class="home-img" src="https://img.icons8.com/ios/50/000000/home.png" alt=""> Home</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/explore"><img class="explore-img" src="https://cdn0.iconfinder.com/data/icons/heroicons-ui/24/icon-hashtag-512.png" alt=""> Explore</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/notifications"><img class="notif-img" src="https://image.flaticon.com/icons/svg/54/54810.svg" alt=""> Notifications</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/messages"><img class="messages-img" src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/439/aiga_mail-512.png" alt=""> Messages</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/i/bookmarks"><img class="bookmarks-img" src="https://cdn.icon-icons.com/icons2/1304/PNG/512/bookmark_85955.png" alt=""> Bookmarks</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/PaulCho94298875/lists"><img class="lists-img" src="https://cdn4.iconfinder.com/data/icons/essentials-6/32/87-01-512.png" alt=""> Lists</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!--Jquery Code-->
+    <script>
+       $(document).ready(function() {
+            $("#btn1").click(function() {
+                $('.para1').toggle()
+            });
+       });
+    //    $(document).ready(function() {
+    //         $("#btn2").click(function() {
+    //             $('.para1').show()
+    //         });
+    //    });
+    </script>
+</body>
+</html>
