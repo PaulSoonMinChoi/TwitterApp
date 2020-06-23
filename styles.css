@@ -56,6 +56,18 @@ header::after {
 
 .top-header li {
     display: inline-block;
+    margin-left: 80px;
+    padding-top: 8px;
+}
+
+.top-header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-header a:hover {
+    border-bottom: 3px solid black;
 }
 
 .tumblr-icon {
